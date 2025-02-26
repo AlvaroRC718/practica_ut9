@@ -1,0 +1,17 @@
+{
+  "generalStats": {
+    "averageRating": 4,
+    "averageTokens": 2.2222222222222223,
+    "minYear": 1987,
+    "averageYear": 1997,
+    "maxYear": 2006
+  },
+  "numGamesPlatform": {
+    "gba": 3,
+    "smsplus": 1,
+    "psx": 2,
+    "n64": 1,
+    "nes": 1,
+    "snes": 1
+  }
+}

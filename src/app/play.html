@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CyberArcade</title>
+    <link rel="icon" href="resources/img/logo_pagina.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script  src="renderer/renderer_play.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container_logos">
+            <a href="#" aria-label="Volver al inicio">
+                <img class="logo1" src="resources/img/logo_pagina.png" alt="Logo CyberArcade" />
+            </a>
+            <a href="#" aria-label="Volver al inicio">
+                <img class="logo2" src="resources/img/logo_letras.png" alt="CyberArcade" />
+            </a>
+        </div>
+
+        <a id="theme-toggle" class="theme-modes" aria-label="Cambiar tema" role="button">
+            <img class="imageThemes" src="" alt="Botón cambiar tema" />
+        </a>
+    </header>
+    <!-- Sección del emulador -->
+    <section id="emulator" style="padding: 20px; text-align: center;">
+        <!-- Contenedor para el emulador -->
+        <section class="card">
+            <div style="width:640px; height:480px; max-width:100%; margin: 0 auto; border: 1px solid #000;">
+                <div id="game"></div>
+            </div>
+        </section>
+        <!-- Carga el script del emulador (loader.js debe estar en la carpeta "data") -->
+        <script src="data/loader.js"></script>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CyberCode Creations. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

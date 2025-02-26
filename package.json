@@ -1,0 +1,40 @@
+{
+  "name": "app_electron_aleatorio",
+  "productName": "app_electron_aleatorio",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.6.1",
+    "@electron-forge/maker-deb": "^7.6.1",
+    "@electron-forge/maker-rpm": "^7.6.1",
+    "@electron-forge/maker-squirrel": "^7.6.1",
+    "@electron-forge/maker-zip": "^7.6.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.6.1",
+    "@electron-forge/plugin-fuses": "^7.6.1",
+    "@electron/fuses": "^1.8.0",
+    "electron": "34.2.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Álvaro",
+    "email": "alvaro.rodriguez27@educa.madrid.org"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "data-forge": "^1.10.2",
+    "electron-squirrel-startup": "^1.0.1",
+    "express": "^4.21.2",
+    "firebase": "^11.3.1",
+    "mysql2": "^3.12.0"
+  }
+}
